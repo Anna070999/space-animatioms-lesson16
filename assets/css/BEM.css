@@ -1,0 +1,208 @@
+.btn {
+    --padding-y: 12px;
+    --padding-x: 24px;
+    cursor: pointer;
+    background-color: var(--btn-bg-defaul);
+    border: 1px solid var(--btn-bg-defaul);
+    font-size: 16px;
+    padding: var(--padding-y) var(--padding-x);
+    display: inline-block;
+    border-radius: 8px;
+    transition: .3s;
+    outline: none;
+}
+
+
+
+.btn:hover {
+    background-color: var(--btn-bg-defaul-hover);
+    border: 1px solid var(--btn-bg-defaul-hover);
+}
+
+
+.btn:active,
+.btn.btn_active {
+    background-color: var(--btn-bg-defaul-active);
+    border: 1px solid var(--btn-bg-defaul-active);
+}
+
+
+.btn:focus {
+    box-shadow: 0px 0px 8px 2px var(--btn-bg-defaul-active);
+}
+
+
+.btn:disabled,
+.btn.disabled,
+.btn:disabled:hover,
+.btn:disabled:active,
+.btn:disabled:focus {
+    background-color: #b1b1b1;
+    border: 1px solid #b1b1b1;
+
+    opacity: 0.7;
+    cursor: auto;
+}
+
+
+
+.btn_primary {
+    background-color: var(--btn-bg-primary);
+    border: 1px solid var(--btn-bg-primary);
+}
+
+
+.btn_primary:hover {
+    background-color: var(--btn-bg-primary-hover);
+    border: 1px solid var(--btn-bg-primary-hover);
+}
+
+
+.btn_primary:active,
+.btn_primary.btn_active {
+    background-color: var(--btn-bg-primary-active);
+    border: 1px solid var(--btn-bg-primary-active);
+}
+
+
+.btn_primary:focus {
+    background-color: 0px 0px 8px 2px var(--btn-bg-primary-active);
+}
+
+
+
+.btn_secondary {
+    background-color: var(--btn-bg-secondary);
+    border: 1px solid var(--btn-bg-secondary);
+}
+
+
+.btn_secondary:hover {
+    background-color: var(--btn-bg-secondary-hover);
+    border: 1px solid var(--btn-bg-secondary-hover);
+}
+
+
+.btn_secondary:active,
+.btn_secondary.btn_active  {
+    background-color: var(--btn-bg-secondary-active);
+    border: 1px solid var(--btn-bg-secondary-active);
+}
+
+
+.btn_secondary:focus {
+    background-color: 0px 0px 8px 2px var(--btn-bg-secondary-active);
+}
+
+
+
+.btn_success {
+    background-color: var(--btn-bg-success);
+    border: 1px solid var(--btn-bg-success);
+}
+
+
+.btn_success:hover {
+    background-color: var(--btn-bg-success-hover);
+    border: 1px solid var(--btn-bg-success-hover);
+}
+
+
+.btn_success:active,
+.btn_success.btn_active {
+    background-color: var(--btn-bg-success-active);
+    border: 1px solid var(--btn-bg-success-active);
+}
+
+
+.btn_success:focus {
+    background-color: 0px 0px 8px 2px var(--btn-bg-success-active);
+}
+
+
+
+.btn_danger {
+    background-color: var(--btn-bg-danger);
+    border: 1px solid var(--btn-bg-danger);
+}
+
+
+.btn_danger:hover {
+    background-color: var(--btn-bg-danger-hover);
+    border: 1px solid var(--btn-bg-danger-hover);
+}
+
+
+.btn_danger:active,
+.btn_danger.btn_active  {
+    background-color: var(--btn-bg-danger-active);
+    border: 1px solid var(--btn-bg-danger-active);
+}
+
+
+.btn_danger:focus {
+    background-color: 0px 0px 8px 2px var(--btn-bg-danger-active);
+}
+
+
+.btn_warning {
+    background-color: var(--btn-bg-warning);
+    border: 1px solid var(--btn-bg-warning);
+}
+
+
+.btn_warning:hover {
+    background-color: var(--btn-bg-warning-hover);
+    border: 1px solid var(--btn-bg-warning-hover);
+}
+
+
+.btn_warning:active,
+.btn_warning.btn_active {
+    background-color: var(--btn-bg-warning-active);
+    border: 1px solid var(--btn-bg-warning-active);
+}
+
+
+.btn_warning:focus {
+    background-color: 0px 0px 8px 2px var(--btn-bg-warning-active);
+}
+
+
+.btn_info {
+    background-color: var(--btn-bg-info);
+    border: 1px solid var(--btn-bg-info);
+}
+
+
+.btn_info:hover {
+    background-color: var(--btn-bg-info-hover);
+    border: 1px solid var(--btn-bg-info-hover);
+}
+
+
+.btn_info:active,
+.btn_info.btn_active {
+    background-color: var(--btn-bg-info-active);
+    border: 1px solid var(--btn-bg-info-active);
+}
+
+
+.btn_info:focus {
+    background-color: 0px 0px 8px 2px var(--btn-bg-info-active);
+}
+
+
+.btn_roundet {
+    border-radius: 25px;
+}
+
+
+.btn_square {
+    border-radius: 0;
+}
+
+
+.btn_outline {
+    background-color: transparent;
+}

@@ -1,0 +1,49 @@
+/*
+
+table {
+    width: 100%;
+}
+
+
+th, td {
+    border: 1px solid;
+    text-align: center;
+    padding: 24px;
+    font-size: 18px;
+}
+
+
+th {
+    border: 4px solid #b66b15 ;
+    background-color: #ffbe76;
+    font-weight: 600;
+}
+
+
+thead {
+    border: 5px solid #555555;
+}
+
+
+tbody {
+    border: 5px solid #ffc107;
+}
+
+
+tfoot {
+    border: 5px solid #555555;
+    background-color: #c7ecee;
+}
+
+
+.table-example-1 {
+    background-color: #f6e56d;;
+}
+
+
+.accent-caell {
+    background-color: #badc58;
+    border: 4px solid #fa8072;
+    font-size: 24px;
+}
+

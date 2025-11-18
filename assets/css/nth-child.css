@@ -1,0 +1,86 @@
+.page-nth-child .parent{
+    border: none;
+}
+
+
+.first-child .child:first-child {
+    background-color: #8f6557;
+}
+
+
+.last-child .child:last-child {
+    background-color: #8f6557;
+}
+
+
+.nth-child-7 .child:nth-child(7) {
+    background-color: #8f6557;
+}
+
+
+.nth-child-odd .child:nth-child(odd) {
+background-color: #8f6557;
+}
+
+
+.nth-child-even .child:nth-child(even) {
+    background-color: #8f6557;
+    }
+
+
+    .nth-child-4n .child:nth-child(4n) {
+        background-color: #8f6557;
+        }
+      
+
+.nth-child-4n\+8 .child:nth-child(4n+8) {
+background-color: #8f6557;
+}
+
+
+.nth-child-n .child:nth-child(n){
+    background-color: #8f6557;
+}
+
+
+.nth-child--n\+7 .child:nth-child(-n+7) {
+    background-color: #8f6557;
+    }
+
+
+    .nth-child-n\+14 .child:nth-child(n+14) {
+        background-color: #8f6557;
+        } 
+
+
+.diapason  .child:nth-child(n+7):nth-child(-n+14) {
+    background-color: #8f6557;
+}   
+
+
+.page-navigation {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #bdbdbd;
+    padding: 24px;
+    border-radius: 12px;
+    width: 320px;
+    gap: 12px;
+    position: fixed;
+    right: 0;
+    top: 250px;
+    backdrop-filter: blur(4px);
+    background: #67676712;
+}
+
+
+.nav-item {
+    text-decoration: none;
+    font-size: 18px;
+    color: #3b2e60;
+}
+
+
+.nav-item:hover {
+    color: #0bab3e;
+}
