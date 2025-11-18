@@ -1,0 +1,49 @@
+:root {
+--bg-color: #eeeeee;
+--color: #1a1a1a;
+--example-bg-color:#f4f3f7d1;
+--example-gap: 100px;
+--line-height: 1.4;
+--font-primary: "Roboto";
+--container-width: 1419px;
+--container-padding: 12px;
+--font-size: 16px;
+
+--btn-bg-defaul: #ebedf0;
+--btn-bg-defaul-hover: #b1b1b1;
+--btn-bg-defaul-active: #696767;
+--btn-bg-defaul-focus: #b1b1b1;
+
+--btn-bg-primary: #54a0ff;
+--btn-bg-primary-hover:#2e86de;
+--btn-bg-primary-active: #2167ad;
+--btn-bg-primary-focus: #2e86de;
+
+--btn-bg-secondary: #c8d6e5;
+--btn-bg-secondary-hover:#8395a7;
+--btn-bg-secondary-active: #525d69;
+--btn-bg-secondary-focus: #8395a7;
+
+--btn-bg-success: #32ff7e;
+--btn-bg-success-hover:#3ae374;
+--btn-bg-success-active: #2faf5c;
+--btn-bg-success-focus: #3ae374;
+
+--btn-bg-danger: #ff4d4c;
+--btn-bg-danger-hover:#ff3838;
+--btn-bg-danger-active: #ac2626;
+--btn-bg-danger-focus: #ff3838;
+
+--btn-bg-warning: #ffaf40;
+--btn-bg-warning-hover:#ff9f1a;
+--btn-bg-warning-active: #c07814;
+--btn-bg-warning-focus: #ff9f1a;
+
+--btn-bg-info: #18dcff;
+--btn-bg-info-hover:#17c0eb;
+--btn-bg-info-active: #0f84a2;
+--btn-bg-info-focus: #17c0eb;
+
+}
+
+

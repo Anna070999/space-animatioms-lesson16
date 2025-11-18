@@ -1,0 +1,45 @@
+/*
+body {
+    font-family: "Roboto";
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+    background-color: #313146;
+   
+}
+
+
+table {
+    width: 100%;
+    margin: 10px;
+    background-color: #003366;
+    color: #ffffff;
+}
+
+
+th, td {
+    border: 1px solid;
+    text-align: center;
+    padding: 24px;
+    font-size: 18px;
+
+}
+
+th {
+    background-color: #042647;
+    font-size: 18px;
+}
+
+
+td {
+    font-size: 16px;
+}
+
+
+thead {
+    position: sticky;
+    top: 0;
+} 

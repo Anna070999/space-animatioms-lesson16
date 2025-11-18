@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: var(--font-size);
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: var(--bg-color);
+    color: var(--color);
+    font-family: var(--font-primary);
+    line-height: var(--line-height);
+}
+
+
+button {
+font-family: var(--font-primary);
+}
+
+
+h1,h2,h3,h4,h5,h6,caption  {
+    font-weight: 600;
+    line-height: 140%;
+    margin-bottom: 0.5em;
+}
+
+
+h1 {
+    font-size: 2.4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+
+b, strong {
+    font-weight: 600;
+}
+
+
+i, em {
+    font-style: italic;
+}
+
+
+.container,
+.page-title  {
+    width: 100%;
+    max-width: var(--container-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--container-padding);
+    padding-right: var(--container-padding);
+ }
+ 
+
+ .page-title {
+    font-size: 72px;
+    margin-bottom: 108px;
+    margin-top: 60px;
+}
+
+
+.example {
+    background-color: var(--example-bg-color);
+    padding: var(--example-gap) 0;
+    margin-bottom: var(--example-gap);
+}
+
+
+.example-title, 
+caption {
+    font-size: 48px;
+    margin-bottom: 72px;
+    text-align: left;
+}
+
+
+.fw-100 {
+    font-weight: 100;
+}
+
+
+.fw-200 {
+    font-weight: 200;
+}
+
+
+.fw-300 {
+    font-weight: 300;
+}
+
+
+.fw-400 {
+    font-weight: 400;
+}
+
+
+.fw-500 {
+    font-weight: 500;
+}
+
+
+.fw-600 {
+    font-weight: 600;
+}
+
+
+.fw-700 {
+    font-weight: 700;
+}
+
+
+.fw-800 {
+    font-weight: 800;
+}
+
+
+.fw-900 {
+    font-weight: 900;
+}
+
+
+.blockquote {
+    background: #950039f2;
+    padding: 48px;
+    font-size: 28px;
+    text-align: center;
+    line-height: 1.7;
+    position: relative;
+    max-width: 1480px;
+    margin: 0 auto;
+}
+
+
+.blockquote:before,
+.blockquote:after {
+    content: "";
+    position: absolute;
+    top: -28px;
+    left: -28px;
+    width: 72px;
+    height: 72px;
+    background: url(../img/icon-quote-top.svg) center/contain no-repeat ;
+}
+
+
+.blockquote:after {
+    top: initial;
+    left: initial;
+    right: -28px;
+    bottom: -28px;
+    background: url(../img/icon-quote-bottom.svg) center/contain no-repeat ;
+}
+
+
+.blockquote p:first-letter {
+    color: #fcd600b9;
+    font-size: 64px;
+    font-weight: 600;
+}
+
+
+.d-flex {
+    display: flex;
+}
+
+
+.g-1 {
+    gap: 16px;
+}
+
+
+.g-2 {
+    gap: 32px;
+}
