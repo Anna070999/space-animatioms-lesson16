@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <main>
+        <h1 class="page-title">selectors</h1>
+        <section class="example">
+            <article class="container">
+              <h2 class="example-title">Selectors Priority Calculation </h2>
+              <table class="table-example-1">
+
+            <thead>
+                <tr>
+                    <th>Selector</th>
+                    <th>Value</th>
+                    <th>Calculation</th>
+                </tr>
+            </thead>
+
+                <tbody>
+                    <tr>
+                        <td>*</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+                    <tr>
+                        <td>p</td>
+                        <td>1</td>
+                        <td>1</td>
+                    </tr>
+
+                    <tr>
+                        <td>.test</td>
+                        <td>10</td>
+                        <td>10</td>
+                    </tr>
+
+                    <tr>
+                        <td>[attr="value"]</td>
+                        <td>10</td>
+                        <td>10</td>
+                    </tr>
+
+                    <tr>
+                        <td>#id</td>
+                        <td>100</td>
+                        <td>100</td>
+                    </tr>
+
+                    <tr>
+                        <td>p style="color: white"></td>
+                        <td>1000</td>
+                        <td>1000</td>
+                    </tr>
+
+                    <tr>
+                        <td>color:#fff!important;</td>
+                        <td>10000</td>
+                        <td>10000</td>
+                    </tr>
+
+                </tbody>
+            </table>  
+        </section>
+
+
+        <section class="example">
+            <article class="container">
+              <h2 class="example-title">Selector Counting Table</h2>
+              <table class="table-example-2">
+
+            <thead>
+                <tr>
+                    <th>Selector</th>
+                    <th>Value</th>
+                    <th>Calculation</th>
+                </tr>
+            </thead>
+
+                <tbody>
+                    <tr>
+                        <td>p.test</td>
+                        <td>11</td>
+                        <td>10+1</td>
+                    </tr>
+
+                    <tr>
+                        <td>.test .color-red</td>
+                        <td>20</td>
+                        <td>10+10</td>
+                    </tr>
+
+                    <tr>
+                        <td>div#id</td>
+                        <td>101</td>
+                        <td>100+1</td>
+                    </tr>
+
+                    <tr>
+                        <td>from#suscrible.number</td>
+                        <td>111</td>
+                        <td>1+100+10</td>
+                    </tr>
+
+                    <tr>
+                        <td>div#id>p.test</td>
+                        <td>112</td>
+                        <td>1+100+1+10</td>
+                    </tr>
+
+                    <tr>
+                        <td>#id > .test> h2.color-red</td>
+                        <td>121</td>
+                        <td>100+10+1+10</td>
+                    </tr>
+
+                    <tr>
+                        <td>header .nav ul>li>a.item</td>
+                        <td>24</td>
+                        <td>1+10+1+1+1+10</td>
+                    </tr>
+
+                </tbody>
+            </table>  
+        </section>
+
+    </main>
+    
+    <a href="nav.html" class="navigation-link">nav</a>
+
+</body>
+</html>    
